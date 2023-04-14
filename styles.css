@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&display=swap');
+
+html, body {
+    margin: 0;
+    
+}
+
+body {
+    background-color: #251749;
+    display: flex;
+    flex-direction: column;
+    color: #FFFBEB;
+    font-family: "IBM Plex Mono", cursive;
+    
+    
+}
+
+.main-header {
+    background-color: #190d30;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    width: 100%;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    margin-left: 5vw;
+}
+
+li {
+    display: flex;
+    margin-right: 5vw;
+}
+
+li a {
+    color: #FFFBEB;
+    text-decoration: none;
+    padding: 5px;
+} li a:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+} 
+
+.me {
+    border-radius: 50%;
+    height: 50px;
+    margin-right: 2vw;
+    border: 2px solid #FFFBEB;
+} .me:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+    
+}
+
+.social {
+    display: flex;
+    
+}
+
+.social img {
+    height: 30px;
+    margin-right: 2vw;
+    border-radius: 50%;
+    background-color: #FFFBEB;
+} .social img:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+.jumbotron {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+    text-align: center;
+    
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-size: 1.5rem;
+    font-weight: 600;
+    height: 80vh;
+}
+
+.jumbotron h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.jumbotron button {
+    background-color: #190d30;
+    color: #FFFBEB;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 20px;
+} .jumbotron button:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+    background-color: #FFFBEB;
+    color: #190d30;
+}
+
+.scroll {
+    opacity: .3;
+}
+
+.about-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+    text-align: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-size: 1.5rem;
+    font-weight: 600;
+    height: 80vh;
+}
+
+.about-container h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.contact-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+    text-align: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-size: 1.5rem;
+    font-weight: 600;
+    height: 80vh;
+}
+
+.contact-container h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.contact-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+    text-align: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.contact-container input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 550px;
+}
+
+.contact-container textarea {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 600;
+    width: 550px;
+    height: 200px;
+}
+
+.contact-container button {
+    background-color: #190d30;
+    color: #FFFBEB;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 20px;
+} .contact-container button:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+    background-color: #FFFBEB;
+    color: #190d30;
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+    text-align: center;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-size: 1.5rem;
+    font-weight: 600;
+    
+}
+
+.projects-container h1 {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.projects-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+    margin-top: 10vh;
+
+
+    
+}
+
+.projects-layout img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    border-radius: 10px;
+    
+} .projects-layout img:hover {
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+
+.projects-layout h2 {
+    font-size: 2rem;
+    font-weight: 600;
+    
+}
+
+.projects-layout a {
+    color: #FFFBEB;
+    text-decoration: none;
+    padding: 5px;
+}
+
