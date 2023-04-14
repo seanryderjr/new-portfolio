@@ -506,12 +506,14 @@ body {
     padding: 0;
     width: 100%;
     align-items: center;
+    position: fixed;
 }
 
 ul {
     list-style: none;
     display: flex;
     margin-left: 5vw;
+
 }
 
 li {
@@ -735,3 +737,117 @@ li a {
     padding: 5px;
 }
 
+@media only screen and (max-width: 600px) {
+    
+    
+
+    ul {
+        display: contents;
+    }
+    
+    .jumbotron {
+      font-size: 1.2rem;
+      height: auto;
+    }
+    .jumbotron h1 {
+      font-size: 2rem;
+    }
+    .jumbotron button {
+      font-size: 0.8rem;
+      padding: 10px;
+    }
+    .about-container {
+      font-size: 1.2rem;
+      height: auto;
+    }
+    .about-container h1 {
+      font-size: 2rem;
+    }
+    .contact-container {
+      font-size: 1.2rem;
+      height: auto;
+    }
+    .contact-container h1 {
+      font-size: 2rem;
+    }
+    .contact-container input,
+    .contact-container textarea {
+      width: 90%;
+    }
+    .contact-container button {
+      font-size: 0.8rem;
+      padding: 10px;
+    }
+  }
+  
+  @media only screen and (min-width: 601px) and (max-width: 768px) {
+    .jumbotron {
+      font-size: 1.5rem;
+      height: auto;
+    }
+    .jumbotron h1 {
+      font-size: 2.5rem;
+    }
+    .jumbotron button {
+      font-size: 1rem;
+      padding: 10px 30px;
+    }
+    .about-container {
+      font-size: 1.5rem;
+      height: auto;
+    }
+    .about-container h1 {
+      font-size: 2.5rem;
+    }
+    .contact-container {
+      font-size: 1.5rem;
+      height: auto;
+    }
+    .contact-container h1 {
+      font-size: 2.5rem;
+    }
+    .contact-container input,
+    .contact-container textarea {
+      width: 70%;
+    }
+    .contact-container button {
+      font-size: 1rem;
+      padding: 10px 30px;
+    }
+  }
+  
+  @media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .jumbotron {
+      font-size: 2rem;
+      height: auto;
+    }
+    .jumbotron h1 {
+      font-size: 3rem;
+    }
+    .jumbotron button {
+      font-size: 1.2rem;
+      padding: 10px 40px;
+    }
+    .about-container {
+      font-size: 2rem;
+      height: auto;
+    }
+    .about-container h1 {
+      font-size: 3rem;
+    }
+    .contact-container {
+      font-size: 2rem;
+      height: auto;
+    }
+    .contact-container h1 {
+      font-size: 3rem;
+    }
+    .contact-container input,
+    .contact-container textarea {
+      width: 50%;
+    }
+    .contact-container button {
+      font-size: 1.2rem;
+      padding: 10px 40px;
+    }
+  }
