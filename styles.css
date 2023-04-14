@@ -609,7 +609,8 @@ li {
 
     flex-direction: column;
     align-items: center;
-    margin-top: 10vh;
+    justify-content: center;
+    padding-top: 20vh;
     text-align: center;
     margin-left: 5vw;
     margin-right: 5vw;
@@ -650,6 +651,10 @@ li {
     height: 80vh
 }
 
+.about-container    {
+    padding-top: 20vh;
+}
+
 .about-container,.contact-container,.contact-container form,.projects-container {
     display: flex;
     flex-direction: column;
@@ -681,7 +686,7 @@ li {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 40px;
-    margin-top: 10vh
+    margin-top: 10vh;
 }
 
 .projects-layout img {
