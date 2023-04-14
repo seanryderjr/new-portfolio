@@ -590,7 +590,23 @@ li {
     background-color: #fffbeb
 }
 
+.weather-data {
+    display: flex;
+    flex-direction: row;
+    font-size: .8rem;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+
+.weather-data img {
+    height: 30px
+    
+}
+
+
 .jumbotron {
+
     flex-direction: column;
     align-items: center;
     margin-top: 10vh;
