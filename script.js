@@ -61,7 +61,7 @@ form.addEventListener("submit", (event) => {
 });
 
 
-
+//Time, weather, and date functions
 
 function updateTime() {
     var now = new Date();
