@@ -619,9 +619,49 @@ li {
     height: 80vh
 }
 
+.me2 {
+    filter: blur(5px);
+    filter: drop-shadow(5px 5px 5px #000);
+}
+
+
+  
+  .hello {
+    width: 21.5ch;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 4px solid #212121;
+    text-align: center;
+    margin-left: 25vh;
+    animation: cursor 1s step-start infinite, 
+      text 6s steps(38) alternate infinite;
+    
+      
+  }
+  
+  @keyframes cursor {
+    0%, 100% { 
+      border-color: #ebe3e3; 
+    }
+  }
+  
+  @keyframes text {
+    0% { 
+      width: 0; 
+    }
+    100% { 
+      width: 42ch; 
+    }
+  }
+
+  .scroll {
+    opacity: .6;
+  }
+
 .about-container h1,.contact-container h1,.jumbotron h1,.projects-container h1 {
     font-size: 3rem;
-    font-weight: 600
+    font-weight: 600;
+    text-shadow: 10px 10px 8px #000000;
 }
 
 .contact-container button,.jumbotron button {
@@ -633,7 +673,8 @@ li {
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
-    padding: 20px
+    padding: 20px;
+    box-shadow: 10px 10px 8px #000000;
 }
 
 .contact-container button:hover,.jumbotron button:hover {
@@ -643,9 +684,7 @@ li {
     color: #190d30
 }
 
-.scroll {
-    opacity: .3
-}
+
 
 .about-container,.contact-container {
     height: 80vh
@@ -679,7 +718,8 @@ li {
 }
 
 .contact-container textarea {
-    height: 200px
+    height: 200px;
+    box-shadow: 10px 10px 8px #000000;
 }
 
 .projects-layout {
@@ -693,7 +733,8 @@ li {
     width: 80%;
     height: 80%;
     object-fit: cover;
-    border-radius: 10px
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px #000000;
 }
 
 .projects-layout h2 {
