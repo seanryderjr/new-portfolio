@@ -496,11 +496,11 @@
  body,li,ul {
      display: flex 
 }
- ul {
+.main-nav ul {
      list-style: none;
      margin-left: 5vw 
 }
- li {
+.main-header li {
      margin-right: 5vw 
 }
  .projects-layout a,li a {
