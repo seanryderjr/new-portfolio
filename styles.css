@@ -550,7 +550,6 @@
      height: 80vh 
 }
  .me2 {
-     filter: blur(5px);
      filter: drop-shadow(5px 5px 5px #000);
 }
  .hello {
