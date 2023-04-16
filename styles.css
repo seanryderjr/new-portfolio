@@ -671,7 +671,7 @@
  #rss-feed {
     background-color: #212121b9;
    margin-top: 20vh;
-   padding: 0px;
+   padding: 30px;
    border-radius: 25px;
    
 }
@@ -703,59 +703,4 @@
     display: flex;
     flex-direction: row;
     
-}
-
- @media only screen and (max-width:600px) {
-     ul {
-         display: contents 
-    }
-     .jumbotron {
-         margin-top: 150px 
-    }
-     .about-container h1,.contact-container h1,.jumbotron h1 {
-         font-size: 2rem 
-    }
-     .contact-container button,.jumbotron button {
-         font-size: .8rem;
-         padding: 10px 
-    }
-     .about-container,.contact-container,.jumbotron {
-         font-size: 1.2rem;
-         height: auto 
-    }
-     .contact-container input,.contact-container textarea {
-         width: 90% 
-    }
-}
- @media only screen and (min-width:601px) and (max-width:768px) {
-     .about-container,.contact-container,.jumbotron {
-         font-size: 1.5rem;
-         height: auto 
-    }
-     .about-container h1,.contact-container h1,.jumbotron h1 {
-         font-size: 2.5rem 
-    }
-     .contact-container button,.jumbotron button {
-         font-size: 1rem;
-         padding: 10px 30px 
-    }
-     .contact-container input,.contact-container textarea {
-         width: 70% 
-    }
-}
- @media only screen and (min-width:769px) and (max-width:1024px) {
-     .about-container,.contact-container,.jumbotron {
-         font-size: 2rem;
-         height: auto 
-    }
-     .about-container h1,.contact-container h1,.jumbotron h1 {
-         font-size: 3rem 
-    }
-     .contact-container button,.jumbotron button {
-         font-size: 1.2rem;
-         padding: 10px 40px 
-    }
-     .contact-container input,.contact-container textarea {
-         width: 50% 
-    }
 }

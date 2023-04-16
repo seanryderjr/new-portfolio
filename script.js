@@ -159,9 +159,9 @@ fetch(`https://api.rss2json.com/v1/api.json?rss_url=${rssFeed}`)
     data.items.forEach(item => {
       output += `
         <div>
-        <h1>My medium.com articles</h1>
+        <h1>My medium.com articles - Live Feed</h1>
           <a href="${item.link}">${item.title}</a>
-          <p>${item.pubDate} - Author: <i>Sean Ryder<i></p>
+          <p>${item.pubDate} - Author: Sean Ryder</p>
           
           <p>${item.content}</p>
           <hr>
