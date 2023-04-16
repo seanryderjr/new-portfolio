@@ -498,7 +498,7 @@
 }
 .main-nav ul {
      list-style: none;
-     margin-left: 5vw 
+     margin-left: 2vw 
 }
 .main-header li {
      margin-right: 5vw 
@@ -524,9 +524,12 @@
      display: flex 
 }
  .social img {
-     height: 30px;
+     height: 50px;
      background-color: #fffbeb 
 }
+
+
+
  .weather-data {
      display: flex;
      flex-direction: row;
@@ -648,6 +651,60 @@
      font-size: 2rem;
      font-weight: 600 
 }
+
+.rss-container {
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    align-items: center;
+    margin-top: 10vh;
+    text-align: left;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    
+
+   
+    
+
+}
+
+ #rss-feed {
+    background-color: #212121b9;
+   margin-top: 20vh;
+   padding: 0px;
+   border-radius: 25px;
+   
+}
+
+#rss-feed a {
+    font-size: 2rem;
+    font-weight: 600;
+    text-shadow: 10px 10px 8px #000000;
+    text-decoration:none;
+    color: #fffbeb;
+}
+
+#rss-feed img {
+    display:flex;
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 8px #000000;
+    float: left;
+    margin-right: 20px;
+    margin-left: -40px;
+}
+
+#rss-feed img {
+    display: none;
+}
+
+#rss-feed p {
+    display: flex;
+    flex-direction: row;
+    
+}
+
  @media only screen and (max-width:600px) {
      ul {
          display: contents 

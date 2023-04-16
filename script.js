@@ -39,6 +39,13 @@ document.getElementById('contact-me-button').addEventListener('click', function 
     contact.scrollIntoView({ behavior: 'smooth' });
 });
 
+const blog = document.querySelector('.rss-container');
+
+document.querySelector('a[href="#blog"]').addEventListener('click', function (e) {
+    e.preventDefault();
+    blog.scrollIntoView({ behavior: 'smooth' });
+});
+
 
 
 // EmailJS api integration
@@ -139,3 +146,31 @@ function getWeather() {
 
 getWeather();
 setInterval(updateTime, 1000);
+
+//Medium.com RSS feed
+
+const rssFeed = 'https://medium.com/feed/@sean.ryderjr';
+
+fetch(`https://api.rss2json.com/v1/api.json?rss_url=${rssFeed}`)
+  .then(response => response.json())
+  .then(data => {
+    const feedContainer = document.getElementById('rss-feed');
+    let output = '';
+    data.items.forEach(item => {
+      output += `
+        <div>
+        <h1>My medium.com articles</h1>
+          <a href="${item.link}">${item.title}</a>
+          <p>${item.pubDate} - Author: <i>Sean Ryder<i></p>
+          
+          <p>${item.content}</p>
+          <hr>
+        </div>
+      `;
+    });
+    feedContainer.innerHTML = output;
+  })
+  .catch(error => console.error(error));
+
+    // <script defer src="//code.jivosite.com/widget/6Efein3bqf"></script>
+
