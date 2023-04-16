@@ -668,9 +668,19 @@
 
 }
 
+.rss-container {
+    margin-top: 30vh;
+}
+
+.rss-container h1 {
+    font-size: 3rem;
+    font-weight: 600;
+    text-shadow: 10px 10px 8px #000000;
+}
+
+
  #rss-feed {
     background-color: #212121b9;
-   margin-top: 20vh;
    padding: 30px;
    border-radius: 25px;
    
