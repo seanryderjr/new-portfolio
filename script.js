@@ -173,5 +173,5 @@ fetch(`https://api.rss2json.com/v1/api.json?rss_url=${rssFeed}`)
   })
   .catch(error => console.error(error));
 
-    // <script defer src="//code.jivosite.com/widget/6Efein3bqf"></script>
+   
 
